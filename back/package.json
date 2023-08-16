@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "Web Player",
+  "main": "app.js",
+  "author": "Kitty",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": " node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.9.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
